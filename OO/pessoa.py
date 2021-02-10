@@ -10,7 +10,7 @@ if __name__ == '__main__':
     p = Pessoa('Matheus')
     print(Pessoa.cumprimentar(p))
     print(id(p))
-    print(p.cumprimentar()
+    print(p.cumprimentar())
     print(p.nome)
     p.nome = 'Morais'
     print(p.nome)
